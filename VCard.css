@@ -1,0 +1,106 @@
+*
+{
+	margin:0;
+	font-family: 'Amatic SC', cursive;
+
+
+}
+
+html
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	  	align-items: center;
+
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+}
+
+
+#page {
+	margin: auto;
+	font-size: 18px;
+	font-family: Calibri, Tahoma, sans-serif;
+	display: flex;
+	margin-bottom: 0;
+	width: 720px;
+	color: white;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.infophoto {
+	display: flex;
+}
+
+.info {
+	margin-top: -50px;
+}
+
+.photo {float: left;
+
+}
+.catégories{
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+	font-weight: bold;
+	margin-top: -50px;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 24px;
+}
+
+.AboutMe h3{
+	text-decoration: underline;
+}
+p{
+	font-size: 18px;
+}
+
+.photo img{
+	width: 150px;
+	padding-right: 10px;
+	margin-top: -50px;
+}
+
+.AboutMe{
+	margin-top: 0;
+	width: 720px;
+	font-weight: bold;
+	color: white;
+}
+
+.données{
+	margin-left: 50px;
+	margin-top: -50px;
+}
+.réseaux{
+	width:720px;
+}
+.AboutMe, #page{
+	padding: 10px;
+}
+.réseaux img {
+	float: right;
+	width: 50px;
+	margin-top: 10px;
+}
+.degradé{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+margin-top: 50px;
+}
